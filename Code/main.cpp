@@ -43,7 +43,7 @@ char currentTime[10];
 
 
 /*Gebetszeiten*/
-PrayerTimes pt(51.495, 6.562, 120);
+PrayerTimes pt("latitude", "latitude", "timezone_offset");
 PrayerTimesResult result;
 
 /*WiFi-Konfiguration*/
